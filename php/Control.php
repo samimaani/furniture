@@ -9,7 +9,7 @@ Class Control{
 	public $view;
 	
 	public function __construct(){
-	//test commit
+		// Server, Database, username, password
 		$this->database = new Database('localhost' , 'furniture' , 'root', '');
    		$this->database->connectdb();
 		$this->view = new View();
