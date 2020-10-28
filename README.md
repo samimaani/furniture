@@ -22,7 +22,7 @@ $this->database = new Database('localhost' , 'furniture' , 'root', '');
 
 * the index.php in the root directory is the main page for the project
 
-## Link to Website Online
+# Link to Website Online
 
 * [furniture Shop](https://dr-abu.com/furniture/)
 * Admin Login Info
