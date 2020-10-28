@@ -1,0 +1,42 @@
+﻿ fieldset {
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    margin: 0px;
+    padding: 10px;
+	border: 1px solid #2a2a2a;
+    background-color: #FAFAFA;
+
+}
+.post-footer{
+	margin:0;
+}
+.post-footer .comments {
+    background: url(images/comment.gif) no-repeat left center;
+    padding-left: 20px;
+    margin: 0 10px 0 5px;
+    float:left;
+}
+.post-footer .date {
+    background: url(images/clock.gif) no-repeat left center;
+    padding-left: 20px;
+    margin: 0 10px 0 5px;
+    float:left;
+}
+.post-footer .rate , #liked , #disliked{
+    /*background: url(clock.gif) no-repeat left center;*/
+    padding-left: 20px;
+    margin: 0 10px 0 5px;
+    float:left;
+}
+
+input[type=number], input[type=tel] ,input[type=datetime-local]{
+	outline:0;
+	border:solid 3px;
+}
+.noPadding{
+	padding:0;
+}
+/*.cartBorder{
+	border:1px solid black;
+	height:120px;
+}*/
