@@ -13,7 +13,7 @@
 # Database
 
 * You can simply import the SQL Database file **furniture.sql** in the Root Directory in Your PhpMyAdmin. Create new Database, name it **Furniture** then import it.
-* if you want to config the Database: username and password the edit the following code-line in the file *furniture/php/Control.php*.
+* if you want to configure the Database (the username or the password for example) then edit the following code-line in the file *furniture/php/Control.php*.
 ```php
 // Server, Database, username, password
 $this->database = new Database('localhost' , 'furniture' , 'root', '');
